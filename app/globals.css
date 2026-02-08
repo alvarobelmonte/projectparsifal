@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Parsifal Palette */
+  --color-background-dark: #2C1E1E;
+  /* Dark brown/black from header */
+  --color-text-light: #F2F0EB;
+  /* Off-white */
+  --color-accent: #DFA59E;
+  /* Salmon/Pink from buttons */
+  --color-grey-translucent: rgba(255, 255, 255, 0.1);
+
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+  /* or Lato */
+}
+
+/* Custom Utilities */
+@utility text-shadow-sm {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+:root {
+  --background: #2C1E1E;
+  /* Main dark background */
+  --foreground: #F2F0EB;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
+  /* Elegant spacing */
+}

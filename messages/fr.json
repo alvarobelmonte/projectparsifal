@@ -1,0 +1,88 @@
+{
+    "Navigation": {
+        "home": "Home",
+        "about": "Qui sommes-nous ?",
+        "projects": "Projets",
+        "team": "L'équipe",
+        "compositions": "Musique",
+        "paintings": "Peintures",
+        "videos": "Art videos",
+        "contact": "Contact"
+    },
+    "Home": {
+        "hero_title": "PROJET\nPARSIFAL"
+    },
+    "About": {
+        "title": "A PROPOS",
+        "subtitle": "Qui sommes-nous ?",
+        "p1": "Porté par une équipe de jeunes musiciens aux horizons variés, le Projet Parsifal est un projet éclectique à la croisée de multiples arts. De la peinture à la danse en passant par la poésie, tous se réunissent autour de différentes compositions musicales.",
+        "p2": "Ces dernières sont le fruit d'influences musicales riches et variées. On y retrouve des sonorités acoustiques folk mais également l'énergie du rock, la chaleur de la musique traditionnelle orientale ou encore la subtilité de la musique classique.",
+        "p3": "Enfin, l'imaginaire artistique du projet s'orchestre principalement autour des travaux de l'artiste peintre Aurélien Alizadeh Fard, sans cesse explorés et redécouverts à travers les créations pluridisciplinaires du groupe.",
+        "link_team": "Découvrez l'équipe du projet dans la section <link>L'équipe</link>",
+        "link_paintings": "Vous pourrez retrouver les travaux du peintre dans la section <link>Peintures</link>"
+    },
+    "Team": {
+        "title": "L'ÉQUIPE",
+        "ulysse_role": "Compositeur, arrangeur et musicien",
+        "ulysse_desc": "Ulysse est compositeur, arrangeur et violoncelliste au sein du projet",
+        "jules_role": "Musicien",
+        "jules_desc": "Jules, percussionniste et pianiste enflamme la scène du projet.",
+        "paul_role": "Ingénieur son",
+        "paul_desc": "Paul est ingénieur son au sein du projet. Participant parfois aux arrangements de certains morceaux, Paul supervise la qualité auditive des compositions.",
+        "perceval_role": "Directeur Artistique / Chant",
+        "perceval_desc": "Perceval est à l'initiative du projet...",
+        "laura_role": "Chorégraphe et danseuse",
+        "laura_desc": "Laura apporte la dimension corporelle...",
+        "emeline_role": "Vidéaste / Caméra",
+        "emeline_desc": "Emeline capture l'essence visuelle..."
+    },
+    "Projects": {
+        "title": "PROJECTS",
+        "weimar_title": "30 ANS DU TRIANGLE DE WEIMAR",
+        "weimar_desc": "Participation du Projet Parsifal à l'échange musical interculturel des 30 ans du Triangle de Weimar.",
+        "come_title": "COME - CRÉATION VIDÉO",
+        "come_desc": "Découvrez le Projet Parsifal sous un autre angle à travers la vidéo \"Come\"",
+        "sunset_title": "PREMIÈRE PARTIE AU SUNSET-SUNSIDE",
+        "sunset_desc": "Le Projet Parsifal a eu l'occasion de jouer dans la salle iconique de la capitale française.",
+        "regarde_title": "REGARDE - CRÉATION VIDÉO",
+        "regarde_desc": "A travers cette première création vidéo, le Projet Parsifal met en avant un dialogue des arts inspiré de l'univers artistique de Aurélien Alizadeh Fard",
+        "revue_title": "REVUE DE PRESSE",
+        "revue_desc": "Quelques plumes à propos des créations du projet",
+        "residence_title": "RÉSIDENCE À LA MAISON DES ENSEMBLES",
+        "residence_desc": "Le Projet Parsifal a été lauréat de la résidence 2020/2021 organisée par la Maison des Ensembles."
+    },
+    "Paintings": {
+        "title": "PEINTURES",
+        "subtitle": "AURÉLIEN ALIZADEH FARD",
+        "bio_title": "AURÉLIEN\nALIZADEH\nFARD",
+        "bio_subtitle": "Artiste peintre 1952 - 2013",
+        "bio_p1": "Né d'un hommage artistique à l'artiste peintre Aurélien Alizadeh Fard, le Projet Parsifal s'inspire de l'univers artistique de celui-ci.",
+        "bio_p2": "Né à Téhéran en 1952 et décédé à Paris en 2013, Aurélien suit ses études d'Arts Plastiques à Paris où il mène une recherche sur le Symbolisme de la Lumière et obtient son Doctorat en Esthétique de l'Art.",
+        "bio_p3": "A ce jour, nous n'avons pu rassembler l'ensemble de ses oeuvres. Cependant, le projet ayant accès à ses écrits et recherches artistiques, s'inspire et prolonge le travail de Aurélien à travers le format de \"création vidéo\". Il s'agit pour nous, à travers ce travail à long terme, de faire vivre une pensée artistique, une poésie du regard venant nourrir l'inspiration artistique du projet."
+    },
+    "Compositions": {
+        "title": "COMPOSTITIONS MUSICALES",
+        "intro": "Découvrez les compositions du Projet Parsifal ! Au carrefour d'influences diverses on y retrouve des sonorités acoustiques folk mais également l'énergie du rock, la chaleur de la musique traditionnelle orientale ou encore la subtilité de la musique classique.",
+        "button": "Écoutez notre musique ici !",
+        "get_album": "Obtenir l'album",
+        "tableau_title": "TABLEAU I : YEKI",
+        "tableau_desc": "Enregistré lors de la résidence à la Maison des Ensembles, l'EP sort le 23 octobre sur toutes les plateformes de streaming. Il est composé de quatre titres dans l'ordre : Yeki, Come, Portrait Crépusculaire et Regarde. Ces 4 musiques représentent bien l'univers du Projet Parsifal dans toute sa variété. Yeki propose un assemblage expérimental de sonorités traditionnelles et issues de la musique contemporaine, Portrait Crépusculaire et son effectif ambitieux déploient les possibilités de la musique instrumentale tandis que Regarde et Come constituent des ponctuations intimistes."
+    },
+    "Videos": {
+        "title": "NOS CREATIONS VIDEOS",
+        "intro": "Retrouvez nos travaux pluridisciplinaires, nos concerts et making-of à travers les vidéos ci-dessous. Tous nos projets sont détaillés dans la section <link>Projets</link>"
+    },
+    "Contact": {
+        "title": "CONTACT",
+        "text1": "Ne manquez pas nos dernières actualités à retrouver sur les différentes plateformes ci-dessous.",
+        "text2": "Pour toute autre information, contactez-nous à travers mail indiqué ci-dessous !",
+        "text3": "A bientôt,\nL'équipe du Projet Parsifal",
+        "email": "projetparsifal@gmail.com"
+    },
+    "Footer": {
+        "copyright": "© {year} Projet Parsifal. Tous droits réservés."
+    },
+    "Common": {
+        "read_more": "En savoir plus"
+    }
+}

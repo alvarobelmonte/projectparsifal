@@ -1,0 +1,88 @@
+{
+    "Navigation": {
+        "home": "Home",
+        "about": "Who are we ?",
+        "projects": "Projects",
+        "team": "The Team",
+        "compositions": "Music",
+        "paintings": "Paintings",
+        "videos": "Art videos",
+        "contact": "Contact"
+    },
+    "Home": {
+        "hero_title": "PROJECT\nPARSIFAL"
+    },
+    "About": {
+        "title": "ABOUT",
+        "subtitle": "Who are we ?",
+        "p1": "Led by a team of young musicians from varied backgrounds, Project Parsifal is an eclectic project at the crossroads of multiple arts. From painting to dance via poetry, everyone gathers around different musical compositions.",
+        "p2": "These are the fruit of rich and varied musical influences. We find acoustic folk sounds but also the energy of rock, the warmth of traditional oriental music or the subtlety of classical music.",
+        "p3": "Finally, the artistic imagination of the project is orchestrated mainly around the works of the painter Aurélien Alizadeh Fard, constantly explored and rediscovered through the group's multidisciplinary creations.",
+        "link_team": "Discover the project team in the <link>The Team</link> section",
+        "link_paintings": "You can find the painter's works in the <link>Paintings</link> section"
+    },
+    "Team": {
+        "title": "THE TEAM",
+        "ulysse_role": "Composer, arranger and musician",
+        "ulysse_desc": "Ulysse is a composer, arranger and cellist within the project.",
+        "jules_role": "Musician",
+        "jules_desc": "Jules, percussionist and pianist, ignites the project's stage.",
+        "paul_role": "Sound Engineer",
+        "paul_desc": "Paul is the sound engineer within the project. Sometimes participating in the arrangements of certain tracks, Paul supervises the auditory quality of the compositions.",
+        "perceval_role": "Artistic Director / Vocals",
+        "perceval_desc": "Perceval is at the initiative of the project...",
+        "laura_role": "Choreographer and dancer",
+        "laura_desc": "Laura brings the corporeal dimension...",
+        "emeline_role": "Videographer / Camera",
+        "emeline_desc": "Emeline captures the visual essence..."
+    },
+    "Projects": {
+        "title": "PROJECTS",
+        "weimar_title": "30 YEARS OF THE WEIMAR TRIANGLE",
+        "weimar_desc": "Participation of Project Parsifal in the intercultural musical exchange of the 30 years of the Weimar Triangle.",
+        "come_title": "COME - VIDEO CREATION",
+        "come_desc": "Discover Project Parsifal from another angle through the video \"Come\"",
+        "sunset_title": "FIRST PART AT SUNSET-SUNSIDE",
+        "sunset_desc": "Project Parsifal had the opportunity to play in the iconic hall of the French capital.",
+        "regarde_title": "REGARDE - VIDEO CREATION",
+        "regarde_desc": "Through this first video creation, Project Parsifal highlights a dialogue of the arts inspired by the artistic universe of Aurélien Alizadeh Fard",
+        "revue_title": "PRESS REVIEW",
+        "revue_desc": "Some words about the project's creations",
+        "residence_title": "RESIDENCE AT MAISON DES ENSEMBLES",
+        "residence_desc": "Project Parsifal was a laureate of the 2020/2021 residency organized by the Maison des Ensembles."
+    },
+    "Paintings": {
+        "title": "PAINTINGS",
+        "subtitle": "AURÉLIEN ALIZADEH FARD",
+        "bio_title": "AURÉLIEN\nALIZADEH\nFARD",
+        "bio_subtitle": "Painter 1952 - 2013",
+        "bio_p1": "Born from an artistic tribute to the painter Aurélien Alizadeh Fard, Project Parsifal draws inspiration from his artistic universe.",
+        "bio_p2": "Born in Tehran in 1952 and died in Paris in 2013, Aurélien pursued his studies in Plastic Arts in Paris where he conducted research on the Symbolism of Light and obtained his Doctorate in Art Aesthetics.",
+        "bio_p3": "To date, we have not been able to gather all of his works. However, the project, having access to his writings and artistic research, is inspired by and extends Aurélien's work through the format of \"video creation\". It is for us, through this long-term work, to bring to life an artistic thought, a poetry of the gaze nourishing the artistic inspiration of the project."
+    },
+    "Compositions": {
+        "title": "MUSICAL COMPOSITIONS",
+        "intro": "Discover the compositions of Project Parsifal! At the crossroads of diverse influences, we find acoustic folk sounds but also the energy of rock, the warmth of traditional oriental music or the subtlety of classical music.",
+        "button": "Spotify, Deezer, Youtube... Listen our music here !",
+        "get_album": "Get Album",
+        "tableau_title": "About EP \"Tableau I\"",
+        "tableau_desc": "Recorded during the residency at the Maison des Ensembles, the EP is released on October 23 on all streaming platforms. It is composed of four tracks in order: Yeki, Come, Portrait Crépusculaire and Regarde. These 4 pieces represent the universe of Project Parsifal in all its variety. Yeki offers an experimental assembly of traditional sounds and those from contemporary music, Portrait Crépusculaire and its ambitious lineup deploy the possibilities of instrumental music while Regarde and Come constitute intimate punctuations."
+    },
+    "Videos": {
+        "title": "OUR VIDEO CREATIONS",
+        "intro": "Find our multidisciplinary works, concerts and making-of through the videos below. All our projects are detailed in the <link>Projects</link> section"
+    },
+    "Contact": {
+        "title": "CONTACT",
+        "text1": "Do not miss our latest news to find on the different platforms below.",
+        "text2": "For any other information, contact us via the email indicated below!",
+        "text3": "See you soon,\nThe Project Parsifal Team",
+        "email": "projetparsifal@gmail.com"
+    },
+    "Footer": {
+        "copyright": "© {year} Project Parsifal. All rights reserved."
+    },
+    "Common": {
+        "read_more": "Read More"
+    }
+}
