@@ -67,47 +67,74 @@ export default function Header() {
                     </div>
                 </div>
 
-                {/* Mobile Menu Button */}
-                <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden text-white hover:text-[#DFA59E] transition-colors z-50">
-                    {isOpen ? <X size={28} /> : <Menu size={28} />}
-                </button>
+                {/* Mobile Menu Button - Visible when closed */}
+                {!isOpen && (
+                    <button onClick={() => setIsOpen(true)} className="lg:hidden text-white hover:text-[#DFA59E] transition-colors z-50">
+                        <Menu size={28} />
+                    </button>
+                )}
             </div>
 
-            {/* Mobile Menu Overlay */}
+            {/* Mobile Menu Overlay - Portal */}
             <AnimatePresence>
                 {isOpen && (
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        className="fixed inset-0 bg-[#2C1E1E] z-40 flex flex-col items-center justify-center lg:hidden"
-                    >
-                        <nav className="flex flex-col gap-6 text-center">
-                            {navLinks.map((link) => (
-                                <Link
-                                    key={link.href}
-                                    href={link.href}
-                                    onClick={() => setIsOpen(false)}
-                                    className="font-display text-2xl text-white hover:text-[#DFA59E] transition-colors uppercase tracking-widest"
-                                >
-                                    {link.label}
-                                </Link>
-                            ))}
-                        </nav>
-
-                        <div className="flex gap-6 mt-12 text-white/80">
-                            <a href="https://www.instagram.com/projet_parsifal/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Instagram size={24} /></a>
-                            <a href="https://www.facebook.com/projetparsifal" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Facebook size={24} /></a>
-                            <a href="https://www.youtube.com/@projetparsifal/videos" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Youtube size={24} /></a>
-                        </div>
-
-                        <div className="flex items-center gap-4 mt-8">
-                            <Link href={pathname} locale="fr" className={`text-sm ${locale === 'fr' ? 'text-white font-bold' : 'text-white/50'}`}>FR</Link>
-                            <Link href={pathname} locale="en" className={`text-sm ${locale === 'en' ? 'text-white font-bold' : 'text-white/50'}`}>EN</Link>
-                        </div>
-                    </motion.div>
+                    <MobileMenuOverlay onClose={() => setIsOpen(false)} navLinks={navLinks} currentLocale={locale} currentPath={pathname} />
                 )}
             </AnimatePresence>
         </header>
+    );
+}
+
+function MobileMenuOverlay({ onClose, navLinks, currentLocale, currentPath }: { onClose: () => void, navLinks: any[], currentLocale: string, currentPath: string }) {
+    // Prevent scrolling when menu is open
+    useEffect(() => {
+        document.body.style.overflow = 'hidden';
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, []);
+
+    const { createPortal } = require('react-dom');
+
+    if (typeof window === 'undefined') return null;
+
+    return createPortal(
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-[#2C1E1E] z-[100] flex flex-col items-center justify-center lg:hidden"
+        >
+            {/* Close Button */}
+            <button onClick={onClose} className="absolute top-6 right-6 text-white hover:text-[#DFA59E] transition-colors">
+                <X size={28} />
+            </button>
+
+            <nav className="flex flex-col gap-8 text-center">
+                {navLinks.map((link) => (
+                    <Link
+                        key={link.href}
+                        href={link.href}
+                        onClick={onClose}
+                        className="font-display text-3xl text-white hover:text-[#DFA59E] transition-colors uppercase tracking-widest"
+                    >
+                        {link.label}
+                    </Link>
+                ))}
+            </nav>
+
+            <div className="flex gap-8 mt-12 text-white/80">
+                <a href="https://www.instagram.com/projet_parsifal/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Instagram size={24} /></a>
+                <a href="https://www.facebook.com/projetparsifal" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Facebook size={24} /></a>
+                <a href="https://www.youtube.com/@projetparsifal/videos" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Youtube size={24} /></a>
+            </div>
+
+            <div className="flex items-center gap-6 mt-12">
+                <Link href={currentPath} locale="fr" className={`text-lg font-light ${currentLocale === 'fr' ? 'text-[#DFA59E] font-bold' : 'text-white/50'}`}>FR</Link>
+                <span className="text-white/20">|</span>
+                <Link href={currentPath} locale="en" className={`text-lg font-light ${currentLocale === 'en' ? 'text-[#DFA59E] font-bold' : 'text-white/50'}`}>EN</Link>
+            </div>
+        </motion.div>,
+        document.body
     );
 }
