@@ -40,7 +40,15 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# User requested ignores
-/assets
-/public/assets
+# Screenshots
 /screenshots
+
+# Root Assets (Use public/assets instead)
+/assets
+
+# Large Media Files (>100MB) - Cannot be uploaded to GitHub standard
+# These files exceed GitHub's 100MB limit. Consider hosting externally (YouTube/Vimeo) or using Git LFS.
+public/assets/videos/making-of-perceval.mp4
+public/assets/videos/making-of-regarde.mp4
+assets/videos/01 - Making off enregistrement Perceval.mp4
+assets/videos/02 - Making of Regarde.mp4
