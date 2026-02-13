@@ -26,19 +26,25 @@
         "title": "L'ÉQUIPE",
         "ulysse_role": "Compositeur, arrangeur et musicien",
         "ulysse_desc": "Ulysse est compositeur, arrangeur et violoncelliste au sein du projet",
+        "ulysse_bio": "Biographie complète d'Ulysse à venir...",
         "jules_role": "Musicien",
         "jules_desc": "Jules, percussionniste et pianiste enflamme la scène du projet.",
+        "jules_bio": "Biographie complète de Jules à venir...",
         "paul_role": "Ingénieur son",
         "paul_desc": "Paul est ingénieur son au sein du projet. Participant parfois aux arrangements de certains morceaux, Paul supervise la qualité auditive des compositions.",
-        "perceval_role": "Directeur Artistique / Chant",
-        "perceval_desc": "Perceval est à l'initiative du projet...",
+        "paul_bio": "Biographie complète de Paul à venir...",
+        "perceval_role": "Compositeur, concepteur et musicien",
+        "perceval_desc": "Perceval est chanteur, guitariste et pianiste. Il est notamment compositeur et imagine les créations vidéos du projet.",
+        "perceval_bio": "Pianiste et tombakiste de formation, Perceval étudie le tombak dès 5 ans avec le maître Madjid Khaladj puis poursuit ses études musicales en intégrant le conservatoire du XIIème arrondissement de Paris à l'âge de 8 ans. Il y intègre la classe de Geoffroy Couteau. En 2019, il entre en cycle spécialisé au CRR de Paris et y obtient son DEM. Perceval valide également une licence de musicologie à la Sorbonne en 2021.\n\nC'est en parallèle de ses études que Perceval apprend, en autodidacte, la guitare et le chant en commençant par un répertoire de \"rock espagnol\". En 2014 il fonde avec son cousin un premier groupe de rock localisé en Espagne \"Rien de rien\" au sein duquel il compose ses premières mélodies. L'année suivante, en 2015, il fonde avec un ami le groupe \"Wild Morning\", un deuxième groupe de rock cette fois-ci situé en France. En 2018, \"Wild Morning\" parvient en finale du concours Emergenza et se produira sur des scènes importantes telles que le New Morning, la Boule Noire ou bien encore le Bataclan.\n\nC'est finalement aux côtés du Projet Parsifal dont il est à l'origine que Perceval poursuit sa carrière musicale.",
         "laura_role": "Chorégraphe et danseuse",
-        "laura_desc": "Laura apporte la dimension corporelle...",
-        "emeline_role": "Vidéaste / Caméra",
-        "emeline_desc": "Emeline capture l'essence visuelle..."
+        "laura_desc": "Laura est danseuse et participe à la conception des chorégraphie du projet.",
+        "laura_bio": "Biographie complète de Laura à venir...",
+        "emeline_role": "Assistante opérateur",
+        "emeline_desc": "Emeline participe en tant que cadreuse et assistante réalisatrice. Elle assure également le montage des créations vidéos \"Regarde\" et \"Come\"",
+        "emeline_bio": "Biographie complète d'Emeline à venir..."
     },
     "Projects": {
-        "title": "PROJECTS",
+        "title": "PROJETS",
         "weimar_title": "30 ANS DU TRIANGLE DE WEIMAR",
         "weimar_desc": "Participation du Projet Parsifal à l'échange musical interculturel des 30 ans du Triangle de Weimar.",
         "come_title": "COME - CRÉATION VIDÉO",
@@ -59,7 +65,7 @@
         "bio_subtitle": "Artiste peintre 1952 - 2013",
         "bio_p1": "Né d'un hommage artistique à l'artiste peintre Aurélien Alizadeh Fard, le Projet Parsifal s'inspire de l'univers artistique de celui-ci.",
         "bio_p2": "Né à Téhéran en 1952 et décédé à Paris en 2013, Aurélien suit ses études d'Arts Plastiques à Paris où il mène une recherche sur le Symbolisme de la Lumière et obtient son Doctorat en Esthétique de l'Art.",
-        "bio_p3": "A ce jour, nous n'avons pu rassembler l'ensemble de ses oeuvres. Cependant, le projet ayant accès à ses écrits et recherches artistiques, s'inspire et prolonge le travail de Aurélien à travers le format de \"création vidéo\". Il s'agit pour nous, à travers ce travail à long terme, de faire vivre une pensée artistique, une poésie du regard venant nourrir l'inspiration artistique du projet."
+        "bio_p3": "A ce jour, nous n'avons pu rassembler l'ensemble de ses œuvres. Cependant, le projet ayant accès à ses écrits et recherches artistiques, s'inspire et prolonge le travail de Aurélien à travers le format de \"création vidéo\". Il s'agit pour nous, à travers ce travail à long terme, de faire vivre une pensée artistique, une poésie du regard venant nourrir l'inspiration artistique du projet."
     },
     "Compositions": {
         "title": "COMPOSTITIONS MUSICALES",
@@ -71,7 +77,9 @@
     },
     "Videos": {
         "title": "NOS CREATIONS VIDEOS",
-        "intro": "Retrouvez nos travaux pluridisciplinaires, nos concerts et making-of à travers les vidéos ci-dessous. Tous nos projets sont détaillés dans la section <link>Projets</link>"
+        "intro": "Retrouvez nos travaux pluridisciplinaires, nos concerts et making-of à travers les vidéos ci-dessous. Tous nos projets sont détaillés dans la section <link>Projets</link>",
+        "videos_title": "VIDÉOS",
+        "albums_title": "ALBUMS"
     },
     "Contact": {
         "title": "CONTACT",

@@ -30,7 +30,7 @@
         "jules_desc": "Jules, percussionist and pianist, ignites the project's stage.",
         "paul_role": "Sound Engineer",
         "paul_desc": "Paul is the sound engineer within the project. Sometimes participating in the arrangements of certain tracks, Paul supervises the auditory quality of the compositions.",
-        "perceval_role": "Artistic Director / Vocals",
+        "perceval_role": "Composer, Designer and Musician",
         "perceval_desc": "Perceval is at the initiative of the project...",
         "laura_role": "Choreographer and dancer",
         "laura_desc": "Laura brings the corporeal dimension...",
@@ -71,7 +71,9 @@
     },
     "Videos": {
         "title": "OUR VIDEO CREATIONS",
-        "intro": "Find our multidisciplinary works, concerts and making-of through the videos below. All our projects are detailed in the <link>Projects</link> section"
+        "intro": "Find our multidisciplinary works, concerts and making-of through the videos below. All our projects are detailed in the <link>Projects</link> section",
+        "videos_title": "VIDEOS",
+        "albums_title": "ALBUMS"
     },
     "Contact": {
         "title": "CONTACT",
