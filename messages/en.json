@@ -15,11 +15,12 @@
     "About": {
         "title": "ABOUT",
         "subtitle": "Who are we ?",
-        "p1": "Led by a team of young musicians from varied backgrounds, Project Parsifal is an eclectic project at the crossroads of multiple arts. From painting to dance via poetry, everyone gathers around different musical compositions.",
-        "p2": "These are the fruit of rich and varied musical influences. We find acoustic folk sounds but also the energy of rock, the warmth of traditional oriental music or the subtlety of classical music.",
+        "p1": "Led by a team of <bold>young musicians</bold> from varied backgrounds, Project Parsifal is an eclectic project at the crossroads of multiple arts. From painting to dance via poetry, everyone gathers around different musical compositions.",
+        "p2": "These are the fruit of rich and varied musical influences. We find acoustic folk sounds but also the energy of <bold>rock</bold>, the warmth of traditional oriental music or the subtlety of classical music.",
         "p3": "Finally, the artistic imagination of the project is orchestrated mainly around the works of the painter Aurélien Alizadeh Fard, constantly explored and rediscovered through the group's multidisciplinary creations.",
         "link_team": "Discover the project team in the <link>The Team</link> section",
-        "link_paintings": "You can find the painter's works in the <link>Paintings</link> section"
+        "link_paintings": "You can find the painter's works in the <link>Paintings</link> section",
+        "link_videos_projects": "Our video creations and projects can be found in the <link1>Art Videos</link1> and <link2>Projects</link2> sections"
     },
     "Team": {
         "title": "THE TEAM",

@@ -15,11 +15,12 @@
     "About": {
         "title": "A PROPOS",
         "subtitle": "Qui sommes-nous ?",
-        "p1": "Porté par une équipe de jeunes musiciens aux horizons variés, le Projet Parsifal est un projet éclectique à la croisée de multiples arts. De la peinture à la danse en passant par la poésie, tous se réunissent autour de différentes compositions musicales.",
-        "p2": "Ces dernières sont le fruit d'influences musicales riches et variées. On y retrouve des sonorités acoustiques folk mais également l'énergie du rock, la chaleur de la musique traditionnelle orientale ou encore la subtilité de la musique classique.",
-        "p3": "Enfin, l'imaginaire artistique du projet s'orchestre principalement autour des travaux de l'artiste peintre Aurélien Alizadeh Fard, sans cesse explorés et redécouverts à travers les créations pluridisciplinaires du groupe.",
+        "p1": "Porté par une équipe de <bold>jeunes musiciens</bold> aux horizons variés, le Projet Parsifal est un projet éclectique à la croisée de multiples arts. De la peinture à la danse en passant par la poésie, tous se réunissent autour de différentes compositions musicales.",
+        "p2": "Ces dernières sont le fruit d'influences musicales riches et variées. On y retrouve des sonorités <bold>acoustiques folk</bold> mais également l'énergie du <bold>rock</bold>, la chaleur de la musique traditionnelle orientale ou encore la subtilité de la musique classique.",
+        "p3": "Enfin, l'imaginaire artistique du projet s'orchestre principalement autour des travaux de l'artiste peintre Aurélien Alizadeh Fard, sans cesse explorés et redécouverts à travers les créations pluridisciplinaires du groupe",
         "link_team": "Découvrez l'équipe du projet dans la section <link>L'équipe</link>",
-        "link_paintings": "Vous pourrez retrouver les travaux du peintre dans la section <link>Peintures</link>"
+        "link_paintings": "Vous pourrez retrouver les travaux du peintre dans la section <link>Peintures</link>",
+        "link_videos_projects": "Nos créations vidéos et projets se trouvent dans les sections <link1>Art Videos</link1> et <link2>Projets</link2>"
     },
     "Team": {
         "title": "L'ÉQUIPE",

@@ -1,17 +1,20 @@
 "use client";
 
-import { useTranslations } from 'next-intl';
+import { Instagram, Facebook, Youtube } from 'lucide-react';
 
 export default function Footer() {
-    const t = useTranslations('Footer');
-    const year = new Date().getFullYear();
-
     return (
-        <footer className="bg-secondary text-white py-8 mt-auto">
-            <div className="container mx-auto px-6 text-center">
-                <p className="text-sm opacity-80 font-light">
-                    {t('copyright', { year })}
-                </p>
+        <footer className="bg-[#1A1010] text-white py-8 mt-auto border-t border-white/5">
+            <div className="container mx-auto px-6 flex justify-center gap-8">
+                <a href="https://www.instagram.com/projet_parsifal/" target="_blank" rel="noopener noreferrer" className="hover:text-[#DFA59E] transition-colors" aria-label="Instagram">
+                    <Instagram size={24} strokeWidth={1.5} />
+                </a>
+                <a href="https://www.facebook.com/projetparsifal" target="_blank" rel="noopener noreferrer" className="hover:text-[#DFA59E] transition-colors" aria-label="Facebook">
+                    <Facebook size={24} strokeWidth={1.5} />
+                </a>
+                <a href="https://www.youtube.com/@projetparsifal/videos" target="_blank" rel="noopener noreferrer" className="hover:text-[#DFA59E] transition-colors" aria-label="YouTube">
+                    <Youtube size={24} strokeWidth={1.5} />
+                </a>
             </div>
         </footer>
     );
