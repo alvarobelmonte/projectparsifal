@@ -55,13 +55,13 @@ export default function Header() {
                 <div className="hidden lg:flex items-center gap-6">
                     <nav className="flex items-center gap-6">
                         {navLinks.map((link) => (
-                            <Link key={link.href} href={link.href} className="text-xs font-sans font-light text-white hover:text-[#DFA59E] transition-colors uppercase tracking-wider">
+                            <Link key={link.href} href={link.href} className="text-sm font-sans font-normal text-white hover:text-[#DFA59E] transition-colors uppercase tracking-wider">
                                 {link.label}
                             </Link>
                         ))}
                     </nav>
                     {/* Language Switcher */}
-                    <div className="flex items-center gap-2 text-xs font-light border-l border-white/30 pl-4 ml-2">
+                    <div className="flex items-center gap-2 text-sm font-light border-l border-white/30 pl-4 ml-2">
                         <Link href={pathname} locale="fr" className={`${locale === 'fr' ? 'text-white' : 'text-white/50 hover:text-white'}`}>FR</Link>
                         <Link href={pathname} locale="en" className={`${locale === 'en' ? 'text-white' : 'text-white/50 hover:text-white'}`}>EN</Link>
                     </div>
@@ -103,20 +103,20 @@ function MobileMenuOverlay({ onClose, navLinks, currentLocale, currentPath }: { 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-[#2C1E1E] z-[100] flex flex-col items-center justify-center lg:hidden"
+            className="fixed inset-0 bg-[#2C1E1E] z-[100] flex flex-col items-center justify-start pt-32 lg:hidden"
         >
             {/* Close Button */}
             <button onClick={onClose} className="absolute top-6 right-6 text-white hover:text-[#DFA59E] transition-colors">
                 <X size={28} />
             </button>
 
-            <nav className="flex flex-col gap-8 text-center">
+            <nav className="flex flex-col gap-6 text-center">
                 {navLinks.map((link) => (
                     <Link
                         key={link.href}
                         href={link.href}
                         onClick={onClose}
-                        className="font-display text-3xl text-white hover:text-[#DFA59E] transition-colors uppercase tracking-widest"
+                        className="font-display text-2xl text-white hover:text-[#DFA59E] transition-colors uppercase tracking-widest"
                     >
                         {link.label}
                     </Link>
