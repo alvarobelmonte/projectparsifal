@@ -1,25 +1,45 @@
 "use client";
 
 import { useTranslations } from 'next-intl';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { Volume2, VolumeX } from 'lucide-react';
 
 export default function HomePage() {
     const t = useTranslations('Home');
     const audioRef = useRef<HTMLAudioElement>(null);
+    const [isMuted, setIsMuted] = useState(true); // Default to muted state if autoplay fails
 
     useEffect(() => {
         if (audioRef.current) {
             audioRef.current.volume = 0.15;
-            // Attempt to play audio (browsers may block this without interaction)
+
+            // Try to play automatically
             const playPromise = audioRef.current.play();
             if (playPromise !== undefined) {
-                playPromise.catch(error => {
-                    console.log("Autoplay prevented:", error);
-                    // Optional: Show a "Play Audio" button here if needed
-                });
+                playPromise
+                    .then(() => {
+                        // Autoplay started!
+                        setIsMuted(false);
+                    })
+                    .catch(error => {
+                        // Autoplay was prevented.
+                        console.log("Autoplay prevented:", error);
+                        setIsMuted(true);
+                    });
             }
         }
     }, []);
+
+    const toggleAudio = () => {
+        if (audioRef.current) {
+            if (isMuted) {
+                audioRef.current.play().then(() => setIsMuted(false));
+            } else {
+                audioRef.current.pause();
+                setIsMuted(true);
+            }
+        }
+    };
 
     return (
         <div className="relative h-screen w-full overflow-hidden flex items-center justify-center">
@@ -48,8 +68,21 @@ export default function HomePage() {
                 </h1>
             </div>
 
+            {/* Audio Toggle Button */}
+            <button
+                onClick={toggleAudio}
+                className="absolute bottom-8 right-8 z-50 p-3 rounded-full bg-white/10 backdrop-blur-sm text-[#F2F0EB] hover:bg-white/20 transition-all duration-300 group"
+                aria-label={isMuted ? "Unmute" : "Mute"}
+            >
+                {isMuted ? (
+                    <VolumeX size={24} className="opacity-70 group-hover:opacity-100" />
+                ) : (
+                    <Volume2 size={24} className="opacity-70 group-hover:opacity-100" />
+                )}
+            </button>
+
             {/* Gradient Overlay for bottom fade */}
-            <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#2C1E1E] to-transparent z-1"></div>
+            <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#2C1E1E] to-transparent z-1 pointer-events-none"></div>
         </div>
     );
 }
